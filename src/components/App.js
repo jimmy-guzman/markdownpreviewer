@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../css/styles.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Markdown from "./Markdown";
