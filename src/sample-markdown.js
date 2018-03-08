@@ -27,9 +27,6 @@ Ordered
     1. Item 3a
     1. Item 3b
 
-Images
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
 
 Links
 http://github.com - automatic!
@@ -40,6 +37,8 @@ As Kanye West said:
 
 > We're living the future so
 > the present is our past.
+
+
 `;
 
 export default sampleMarkdown;
