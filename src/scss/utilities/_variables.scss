@@ -16,6 +16,8 @@ $base__line: 26px;
 $white: #fff;
 $black: #000;
 $tuna: #303641;
+$periwinkle: #bcd4ff;
+$rock-blue: #97a9cc;
 
 //functional color variables
 
@@ -25,6 +27,8 @@ $color-secondary: $white;
 $color-text-light: $white;
 $color-text-base: $black;
 
+$color-link-default: $periwinkle;
+$color-link-visited: $rock-blue;
 // breakpoints
 
 $brkpoint--sm: 1px;
