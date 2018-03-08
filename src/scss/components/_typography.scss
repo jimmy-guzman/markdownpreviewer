@@ -1,0 +1,12 @@
+body {
+  font-family: $font-family--primary;
+}
+
+.headline {
+  @include m(primary) {
+    font-weight: $font-weight--regular;
+  }
+  @include m(secondary) {
+    text-align: center;
+  }
+}

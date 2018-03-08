@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  @include e(row) {
+    width: 100%;
+    @include mq(medium) {
+      @include flex($disp: flex, $just: space-between);
+    }
+  }
+  @include e(col) {
+    @include mq(medium) {
+      @include g-columns;
+    }
+  }
+}
