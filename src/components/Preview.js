@@ -3,7 +3,9 @@ import marked from "marked";
 
 class Preview extends React.Component {
   getMarkdownText() {
-    var rawMarkup = marked(this.props.markdownText, { sanitize: true });
+    var rawMarkup = marked(this.props.markdownText, {
+      sanitize: true
+    });
     return { __html: rawMarkup };
   }
   render() {
