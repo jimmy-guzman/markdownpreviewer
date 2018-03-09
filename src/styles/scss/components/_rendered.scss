@@ -1,10 +1,5 @@
 .rendered {
-  background: $color-secondary;
-  color: $color-text-base;
-  font-family: $font-family--primary;
-  font-size: $base__font-size;
-  padding: em(18px);
-  border-radius: $br--default;
+  @extend %text-box;
   pre {
     display: block;
     padding: 9.5px;

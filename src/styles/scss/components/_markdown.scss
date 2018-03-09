@@ -1,0 +1,6 @@
+.markdown {
+  border: none;
+  outline: none;
+  resize: none;
+  @extend %text-box;
+}

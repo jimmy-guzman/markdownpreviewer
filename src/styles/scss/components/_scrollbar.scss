@@ -1,0 +1,25 @@
+  /* width */
+  ::-webkit-scrollbar {
+    width: em(12px);
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: inherit;
+    border-right: 2px solid $tuna
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $periwinkle;
+    border-right: 2px solid $tuna
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $rock-blue;
+  }
+
+  ::-webkit-scrollbar-corner {
+    border-radius: $br--default;
+  }

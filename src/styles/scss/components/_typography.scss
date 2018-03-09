@@ -5,10 +5,12 @@ body {
 .headline {
   @include m(primary) {
     font-weight: $font-weight--regular;
+    margin: em(10px) 0;
   }
   @include m(secondary) {
     font-weight: $font-weight--bold;
     text-align: center;
+    margin-bottom: 0;
   }
 }
 

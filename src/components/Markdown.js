@@ -3,10 +3,6 @@ import React from "react";
 class Markdown extends React.Component {
   markdownRef = React.createRef();
 
-  // componentDidMount() {
-  //   this.props.= sampleMarkdown;
-  // }
-
   handleChange = event => {
     // update markdownText
     //1. take a copy of the current markdownText
@@ -22,7 +18,7 @@ class Markdown extends React.Component {
           name="markdown"
           ref={this.markdownRef}
           type="text"
-          rows="30"
+          // rows="30"
           className="markdown"
           onChange={this.handleChange}
           value={this.props.markdownText}

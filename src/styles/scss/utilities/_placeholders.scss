@@ -1,0 +1,10 @@
+%text-box {
+    background: $color-secondary;
+    color: $color-text-base;
+    font-family: $font-family--primary;
+    font-size: $base__font-size;
+    padding: em(18px);
+    width: 100%;
+    overflow: auto;
+    height: 75vh;
+}
